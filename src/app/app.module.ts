@@ -7,12 +7,14 @@ import { ChartsModule } from 'ng2-charts';
 import { AppComponent } from './app.component';
 import { LineaComponent } from './components/linea/linea.component';
 import { BarComponent } from './components/bar/bar.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LineaComponent,
-    BarComponent
+    BarComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
