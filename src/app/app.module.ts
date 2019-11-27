@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { LineaComponent } from './components/linea/linea.component';
 import { BarComponent } from './components/bar/bar.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { DonaComponent } from './components/dona/dona.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LineaComponent,
     BarComponent,
-    NavbarComponent
+    NavbarComponent,
+    DonaComponent
   ],
   imports: [
     BrowserModule,
